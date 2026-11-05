@@ -9,8 +9,8 @@ import {
 } from "firebase/auth";
 
 import { auth } from "./firebase";
-
-const API_URL = "http://localhost:5000/api";
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
 const emptyFood = {
   foodName: "",
