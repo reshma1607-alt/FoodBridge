@@ -530,7 +530,7 @@ function App() {
 
               <div className="hero-image-blob">
                 <img
-                  src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=85"
+                  src="/hero.png"
                   alt="Fresh food prepared for sharing"
                 />
               </div>
